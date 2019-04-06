@@ -1,5 +1,6 @@
 # cleaner
 
+[![godoc](https://img.shields.io/badge/godoc-reference-blue.svg?style=for-the-badge)](https://godoc.org/github.com/krostar/cleaner)
 [![Licence](https://img.shields.io/github/license/krostar/cleaner.svg?style=for-the-badge)](https://tldrlegal.com/license/mit-license)
 ![Latest version](https://img.shields.io/github/tag/krostar/cleaner.svg?style=for-the-badge)
 
@@ -83,6 +84,8 @@ func initHTTP(cfg httpapi.Config, usecases httpapi.Usecases, log logger.Logger, 
 	return http
 }
 ```
+
+More doc and examples in the cleaner's [godoc](https://godoc.org/github.com/krostar/cleaner)
 
 ## License
 
