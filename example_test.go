@@ -46,8 +46,8 @@ func initSomethingElse() *somethingElse {
 
 }
 
-func onCleanFailure(err error) {
-	fmt.Println(errors.Wrap(err, "oops, there is a failure"))
+func onCleanFailure(err error, _ []byte) {
+	fmt.Println(errors.Wrap(err, "oops, there is a failure").Error())
 }
 
 type something struct{}
